@@ -3,7 +3,7 @@ import React from 'react';
 import Header from './components/Header';
 import About from './components/About';
 import Projects from './components/Projects';
-import Contact from './components/Contact';
+import ContactInfo from './components/ContactInfo';
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <main className="p-8">
         <About />
         <Projects />
-        <Contact />
+        <ContactInfo />
       </main>
     </div>
   );
