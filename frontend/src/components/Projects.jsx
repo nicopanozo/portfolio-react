@@ -3,6 +3,7 @@ import React from 'react';
 import ProjectCard from './ProjectCard';
 import project1Image from '../assets/images/project1.jpg';
 import project2Image from '../assets/images/project2.jpg';
+import phpStore from '../assets/images/phpStore.png';
 
 const Projects = () => {
   return (
@@ -11,15 +12,15 @@ const Projects = () => {
         <h2 className="text-3xl font-bold text-gray-800 mb-6">Proyectos</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <ProjectCard
-            title="Proyecto 1"
-            description="Descripción breve del proyecto 1."
-            imageSrc={project1Image}
-            projectLink="https://enlace-al-proyecto1.com"
+            title="Manejo de inventario en PHP con MySQL"
+            description="Sistema de manejo de inventario en PHP con MySQL. Sistema CRUD completo para manejo de productos, stock, ventas y usuarios."
+            imageSrc={phpStore}
+            projectLink="https://github.com/nicopanozo/tienda-php.git"
           />
           <ProjectCard
             title="Proyecto 2"
             description="Descripción breve del proyecto 2."
-            imageSrc={project2Image}
+            imageSrc={project1Image}
             projectLink="https://enlace-al-proyecto2.com"
           />
           <ProjectCard
