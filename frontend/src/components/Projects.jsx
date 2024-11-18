@@ -4,9 +4,17 @@ import ProjectCard from './ProjectCard';
 import project1Image from '../assets/images/project1.jpg';
 import project2Image from '../assets/images/project2.jpg';
 import phpStore from '../assets/images/phpStore.png';
+import { motion } from "framer-motion";
 
 const Projects = () => {
   return (
+    <motion.section
+    id="projects"
+      className="py-12 bg-gray-100"
+      initial={{ opacity: 0, y: 50 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.8 }}
+    >
     <section id="projects" className="py-12 bg-gray-100">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-gray-800 mb-6">Proyectos</h2>
@@ -52,6 +60,7 @@ const Projects = () => {
         </div>
       </div>
     </section>
+    </motion.section>
   );
 };
 
