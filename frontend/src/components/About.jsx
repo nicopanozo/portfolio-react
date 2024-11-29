@@ -26,7 +26,7 @@ const About = () => {
 
           {/* Columna de Texto */}
           <div>
-            <h2 className="text-4xl font-bold text-gray-800 mb-4">Sobre mí</h2>
+            <h2 className="text-4xl font-bold text-gray-800 mb-4">About</h2>
             <p className="text-gray-700 leading-relaxed mb-4">
             I'm Nicolas Panozo, a passionate web developer with experience in both personal and professional projects. My technical skills include:
 

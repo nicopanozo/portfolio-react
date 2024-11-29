@@ -6,8 +6,8 @@ const ContactInfo = () => {
   return (
     <section id="contact" className="py-12 bg-gray-100">
       <div className="container mx-auto px-4 text-center">
-        <h2 className="text-3xl font-bold text-gray-800 mb-6">Contacto</h2>
-        <p className="text-gray-700 mb-4">¡Conecta conmigo en las siguientes plataformas!</p>
+        <h2 className="text-3xl font-bold text-gray-800 mb-6">Contact</h2>
+        <p className="text-gray-700 mb-4">Get in touch with me on:</p>
         <div className="flex justify-center space-x-8">
           <a href="https://linkedin.com/in/nicolas-panozo" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-blue-700 transition duration-300">
             <FaLinkedin size={40} />
