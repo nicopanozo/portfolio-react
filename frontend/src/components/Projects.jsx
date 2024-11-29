@@ -1,9 +1,8 @@
 // src/components/Projects.jsx
 import React from 'react';
 import ProjectCard from './ProjectCard';
-import project1Image from '../assets/images/project1.jpg';
 import project2Image from '../assets/images/project2.jpg';
-import phpStore from '../assets/images/phpStore.png';
+import phpStore2 from '../assets/images/phpStore2.png';
 import ollamaTools from '../assets/images/ollamaTools.png';
 import { motion } from "framer-motion";
 
@@ -23,7 +22,7 @@ const Projects = () => {
           <ProjectCard
             title="PHP, Yii2 and MySQL Stock Management Web App for Clothing Store"
             description="PHP application using Yii and MySQL to streamline retail operations. Features include user management, product catalog, sales tracking, and real-time inventory updates."
-            imageSrc={phpStore}
+            imageSrc={phpStore2}
             projectLink="https://github.com/nicopanozo/tienda-php.git"
           />
           <ProjectCard
@@ -31,30 +30,6 @@ const Projects = () => {
             description="This AI project provides a comprehensive guide and code examples for leveraging Ollama's function calling feature. Discover how to extend the capabilities of your language models by allowing them to interact with external tools and data sources."
             imageSrc={ollamaTools}
             projectLink="https://github.com/nicopanozo/ollama-functions-as-tools.git"
-          />
-          <ProjectCard
-            title="Proyecto 2"
-            description="Descripción breve del proyecto 2."
-            imageSrc={project2Image}
-            projectLink="https://enlace-al-proyecto2.com"
-          />
-          <ProjectCard
-            title="Proyecto 2"
-            description="Descripción breve del proyecto 2."
-            imageSrc={project2Image}
-            projectLink="https://enlace-al-proyecto2.com"
-          />
-          <ProjectCard
-            title="Proyecto 2"
-            description="Descripción breve del proyecto 2."
-            imageSrc={project2Image}
-            projectLink="https://enlace-al-proyecto2.com"
-          />
-          <ProjectCard
-            title="Proyecto 2"
-            description="Descripción breve del proyecto 2."
-            imageSrc={project2Image}
-            projectLink="https://enlace-al-proyecto2.com"
           />
           
           {/* Puedes agregar más ProjectCards aquí */}
